@@ -38,6 +38,10 @@ class TicTacToe {
                 tiles[i].value == tiles[i+3].value,
                 tiles[i].value == tiles[i+6].value {
                     endGame(winningTeam: winningTeam)
+                    print("Won on Vert. \(tiles[i].value), \(tiles[i+3].value),\(tiles[i+6].value) ")
+                for i in tiles {
+                    print("\(i.value) ")
+                }
                     return
             }
         }
@@ -48,6 +52,7 @@ class TicTacToe {
                  tiles[i].value == tiles[i+1].value,
                  tiles[i].value == tiles[i+2].value {
                     endGame(winningTeam: winningTeam)
+                print("Won on Hor")
                     return
              }
          }
@@ -57,6 +62,7 @@ class TicTacToe {
             tiles[0].value == tiles[4].value,
             tiles[0].value == tiles[8].value {
                 endGame(winningTeam: winningTeam)
+                print("Won on Diag")
                 return
         }
         
