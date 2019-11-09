@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34275DC323761F34006BF9CD /* Tic Tac Toe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34275DC223761F34006BF9CD /* Tic Tac Toe.swift */; };
+		34275DC523761FA6006BF9CD /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34275DC423761FA6006BF9CD /* Tile.swift */; };
 		3427B39E23760BA000BFDC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427B39D23760BA000BFDC3F /* AppDelegate.swift */; };
 		3427B3A023760BA000BFDC3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427B39F23760BA000BFDC3F /* SceneDelegate.swift */; };
 		3427B3A223760BA000BFDC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3427B3A123760BA000BFDC3F /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34275DC223761F34006BF9CD /* Tic Tac Toe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tic Tac Toe.swift"; sourceTree = SOURCE_ROOT; };
+		34275DC423761FA6006BF9CD /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		3427B39A23760BA000BFDC3F /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3427B39D23760BA000BFDC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3427B39F23760BA000BFDC3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,15 +60,25 @@
 		3427B39C23760BA000BFDC3F /* Tic-Tac-Toe */ = {
 			isa = PBXGroup;
 			children = (
-				3427B39D23760BA000BFDC3F /* AppDelegate.swift */,
-				3427B39F23760BA000BFDC3F /* SceneDelegate.swift */,
+				34275DC223761F34006BF9CD /* Tic Tac Toe.swift */,
+				34275DC423761FA6006BF9CD /* Tile.swift */,
 				3427B3A123760BA000BFDC3F /* ViewController.swift */,
 				3427B3A323760BA000BFDC3F /* Main.storyboard */,
 				3427B3A623760BA400BFDC3F /* Assets.xcassets */,
+				346CC56923760FAA00855475 /* Supporting files */,
 				3427B3A823760BA400BFDC3F /* LaunchScreen.storyboard */,
 				3427B3AB23760BA400BFDC3F /* Info.plist */,
 			);
 			path = "Tic-Tac-Toe";
+			sourceTree = "<group>";
+		};
+		346CC56923760FAA00855475 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3427B39D23760BA000BFDC3F /* AppDelegate.swift */,
+				3427B39F23760BA000BFDC3F /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34275DC323761F34006BF9CD /* Tic Tac Toe.swift in Sources */,
 				3427B3A223760BA000BFDC3F /* ViewController.swift in Sources */,
+				34275DC523761FA6006BF9CD /* Tile.swift in Sources */,
 				3427B39E23760BA000BFDC3F /* AppDelegate.swift in Sources */,
 				3427B3A023760BA000BFDC3F /* SceneDelegate.swift in Sources */,
 			);
