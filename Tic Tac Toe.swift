@@ -1,13 +1,9 @@
 import Foundation
 
 class TicTacToe {
-    
-    // Array of 9 Tile
+
     var tiles = [Tile]()
-    
-    // The text describing the game
     var descriptionText: String
-    
     var gameOver = false
     
     init() {
@@ -18,6 +14,9 @@ class TicTacToe {
         descriptionText = "TIC TAC TOE"
     }
     
+    // Called when a button is tapped
+    //
+    // @param index: the index in the array of tiles
     func chooseCard(at index: Int) {
         if !gameOver {
             if Tile.isX {
@@ -31,38 +30,33 @@ class TicTacToe {
         }
     }
     
+    // Called after a button is tapped
     func checkEndgame(){
-        // Check Verticals
+        // Check columns for a winner
         for i in 0...2 {
             if let winningTeam = tiles[i].value,
                 tiles[i].value == tiles[i+3].value,
                 tiles[i].value == tiles[i+6].value {
                     endGame(winningTeam: winningTeam)
-                    print("Won on Vert. \(tiles[i].value), \(tiles[i+3].value),\(tiles[i+6].value) ")
-                for i in tiles {
-                    print("\(i.value) ")
-                }
                     return
             }
         }
         
-        // Check Horizontals
+        // Check rows for a winner
         for i in stride(from: 0, to: 7, by: 3){
              if let winningTeam = tiles[i].value,
                  tiles[i].value == tiles[i+1].value,
                  tiles[i].value == tiles[i+2].value {
                     endGame(winningTeam: winningTeam)
-                print("Won on Hor")
                     return
              }
          }
         
-        // Check Diagonals
+        // Check diagonals for a winner
         if let winningTeam = tiles[0].value,
             tiles[0].value == tiles[4].value,
             tiles[0].value == tiles[8].value {
                 endGame(winningTeam: winningTeam)
-                print("Won on Diag")
                 return
         }
         
@@ -73,13 +67,13 @@ class TicTacToe {
                 return
         }
         
-        // Check Cats Game
+        // Check for cats game
         if checkCats() {
             endGame(winningTeam: nil)
             return
         }
             
-        // Game is still active. Determine next move
+        // If none of the above, the game is still active
         else {
             if Tile.isX {
                 descriptionText = "X's TURN"
@@ -89,7 +83,7 @@ class TicTacToe {
         }
     }
 
-    // Returns true if all the tiles have been flipped
+    // Returns true if all the tiles have been flipped over
     func checkCats() -> Bool {
         for i in tiles {
             if !i.isChosen {
@@ -110,10 +104,12 @@ class TicTacToe {
         gameOver = false
     }
     
-    // If the game is over
+    // Sets the instance variable descriptionText to "winningTeam WINS!" or "CATS GAME"
+    //
+    // @param winningTeam: the team that won
     func endGame(winningTeam: String?) {
         if let winningTeam = winningTeam {
-            descriptionText = "\(winningTeam) WINS"
+            descriptionText = "\(winningTeam) WINS!"
         } else {
             descriptionText = "CATS GAME"
         }

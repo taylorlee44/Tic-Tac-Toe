@@ -24,10 +24,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ql6-8W-ppO">
                                                 <rect key="frame" x="0.0" y="0.0" width="99.5" height="99.5"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -35,15 +35,15 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C2W-vX-qM0"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTh-Nv-hlA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqf-rI-JgY">
                                                 <rect key="frame" x="107.5" y="0.0" width="100" height="99.5"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -51,15 +51,15 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q8K-1W-c6k"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5o-qp-kcb"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLA-Sc-So1">
                                                 <rect key="frame" x="215.5" y="0.0" width="99.5" height="99.5"/>
-                                                <color key="backgroundColor" red="0.62352949380874634" green="0.61960214376449585" blue="0.6196027398109436" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -67,7 +67,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VeE-eM-9W0"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d0M-ar-lgC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -77,10 +77,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTV-mf-Hdv">
                                                 <rect key="frame" x="0.0" y="0.0" width="99.5" height="100"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -88,15 +88,15 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tuK-b9-3Os"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="av2-pw-a4b"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDw-l0-Gie">
                                                 <rect key="frame" x="107.5" y="0.0" width="100" height="100"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -104,15 +104,15 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A77-oo-0nf"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vn-1z-Ect"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8o-LU-sKX">
                                                 <rect key="frame" x="215.5" y="0.0" width="99.5" height="100"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -120,7 +120,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b3U-F7-qdV"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NV3-1t-evT"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -130,10 +130,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtM-tn-DS2">
                                                 <rect key="frame" x="0.0" y="0.0" width="99.5" height="99.5"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -141,15 +141,15 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hKC-5m-MQF"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="to4-Hd-2hA"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fm-mv-7Ob">
                                                 <rect key="frame" x="107.5" y="0.0" width="100" height="99.5"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -157,18 +157,18 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dqj-ah-lWr"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2st-BO-iMc"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEy-sQ-ytp">
                                                 <rect key="frame" x="215.5" y="0.0" width="99.5" height="99.5"/>
-                                                <color key="backgroundColor" white="0.55432988556338025" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KEy-sQ-ytp" secondAttribute="height" multiplier="1:1" id="fzr-is-HIu"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <state key="normal">
-                                                    <color key="titleColor" red="0.87204363880000002" green="0.8751710063" blue="0.88455310880000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -176,7 +176,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n6Z-Xw-avV"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXd-EG-PVb"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -185,10 +185,13 @@
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.69999999999999996" height="1"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhK-1h-TH9">
-                                <rect key="frame" x="40" y="571" width="295" height="60"/>
+                                <rect key="frame" x="40" y="541" width="295" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="sbB-Pq-1MM"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="NEW GAME">
-                                    <color key="titleColor" red="0.62179334278583165" green="0.69126457253886009" blue="0.68465254040750501" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="newGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GgO-7W-iL0"/>
@@ -200,13 +203,13 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="48" id="cHU-ZI-avy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" red="0.62353551387786865" green="0.62352162599563599" blue="0.62352442741394043" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="OhK-1h-TH9" firstAttribute="top" secondItem="9IA-Pf-ptD" secondAttribute="bottom" priority="750" constant="80" id="0JO-d6-McX"/>
+                            <constraint firstItem="OhK-1h-TH9" firstAttribute="top" secondItem="9IA-Pf-ptD" secondAttribute="bottom" priority="750" constant="50" id="0JO-d6-McX"/>
                             <constraint firstItem="OhK-1h-TH9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="0Oe-00-SOf"/>
                             <constraint firstItem="dbM-an-ldf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9aL-k9-sDu"/>
                             <constraint firstItem="Bho-rX-yF2" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="AhY-PK-eat"/>
@@ -215,22 +218,22 @@
                             <constraint firstItem="dbM-an-ldf" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="TDU-rp-kpB"/>
                             <constraint firstItem="Bho-rX-yF2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TUH-p9-lHV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OhK-1h-TH9" secondAttribute="trailing" constant="40" id="Vtb-WY-zLM"/>
-                            <constraint firstItem="dEB-Mt-H1v" firstAttribute="top" secondItem="dbM-an-ldf" secondAttribute="bottom" priority="750" constant="80" id="jsd-hE-ECe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OhK-1h-TH9" secondAttribute="bottom" constant="20" id="sKe-Zc-NrC"/>
+                            <constraint firstItem="dEB-Mt-H1v" firstAttribute="top" secondItem="dbM-an-ldf" secondAttribute="bottom" priority="750" constant="50" id="jsd-hE-ECe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="OhK-1h-TH9" secondAttribute="bottom" constant="25" id="sKe-Zc-NrC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="gameDescription" destination="dbM-an-ldf" id="kTA-uA-1AC"/>
-                        <outletCollection property="tileButtons" destination="bqf-rI-JgY" collectionClass="NSMutableArray" id="CHM-Qd-C03"/>
-                        <outletCollection property="tileButtons" destination="BLA-Sc-So1" collectionClass="NSMutableArray" id="C56-KD-uvk"/>
-                        <outletCollection property="tileButtons" destination="Ql6-8W-ppO" collectionClass="NSMutableArray" id="N2z-af-Pcq"/>
-                        <outletCollection property="tileButtons" destination="xTV-mf-Hdv" collectionClass="NSMutableArray" id="Gte-i0-53z"/>
-                        <outletCollection property="tileButtons" destination="cDw-l0-Gie" collectionClass="NSMutableArray" id="KkD-oi-yiX"/>
-                        <outletCollection property="tileButtons" destination="O8o-LU-sKX" collectionClass="NSMutableArray" id="C4v-Vr-LXA"/>
-                        <outletCollection property="tileButtons" destination="KEy-sQ-ytp" collectionClass="NSMutableArray" id="JOT-wK-g0M"/>
-                        <outletCollection property="tileButtons" destination="8fm-mv-7Ob" collectionClass="NSMutableArray" id="ljO-s7-IWO"/>
-                        <outletCollection property="tileButtons" destination="rtM-tn-DS2" collectionClass="NSMutableArray" id="jtH-Rk-ul6"/>
+                        <outletCollection property="tileButtons" destination="Ql6-8W-ppO" collectionClass="NSMutableArray" id="NQP-ma-c26"/>
+                        <outletCollection property="tileButtons" destination="bqf-rI-JgY" collectionClass="NSMutableArray" id="MNw-dN-nkZ"/>
+                        <outletCollection property="tileButtons" destination="BLA-Sc-So1" collectionClass="NSMutableArray" id="B3z-bS-nyR"/>
+                        <outletCollection property="tileButtons" destination="xTV-mf-Hdv" collectionClass="NSMutableArray" id="cZp-0H-FZ6"/>
+                        <outletCollection property="tileButtons" destination="cDw-l0-Gie" collectionClass="NSMutableArray" id="cL1-lW-15x"/>
+                        <outletCollection property="tileButtons" destination="O8o-LU-sKX" collectionClass="NSMutableArray" id="aUf-g9-BGe"/>
+                        <outletCollection property="tileButtons" destination="rtM-tn-DS2" collectionClass="NSMutableArray" id="jV5-2m-Nas"/>
+                        <outletCollection property="tileButtons" destination="8fm-mv-7Ob" collectionClass="NSMutableArray" id="xkT-Jr-MiF"/>
+                        <outletCollection property="tileButtons" destination="KEy-sQ-ytp" collectionClass="NSMutableArray" id="dWt-f5-J02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
