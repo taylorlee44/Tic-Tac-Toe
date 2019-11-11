@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-This is a simple yet comprehensive Tic-Tac-Toe (user vs. user) game for iOS, written in Swift. 
+This is a simple yet comprehensive Tic-Tac-Toe game for iOS, written in Swift. 
 
 This iOS application uses a MVC framework. 
 
